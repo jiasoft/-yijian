@@ -1,7 +1,7 @@
 module.exports = {
   version: "5.0",
   note: '优化接口调用流程',
-  subDomain: "yijian2020", // 如果你的域名是： https://api.it120.cc/yijian2020 那么这里只要填写 yijian2020
+  subDomain: "yijian2020", // 如果你的域名是： https://api.it120.cc/yijian2020 那么这里只要填写 yijian2020，后台管理系统：https://yijian2020.admin.it120.cc
   appid: "wxf18962e3dea3da6c", // 您的小程序的appid，购物单功能需要使用
   shareProfile: '颐见精品家具，总有一款适合您' // 首页转发的时候话术
 }
