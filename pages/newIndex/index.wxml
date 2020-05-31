@@ -1,0 +1,36 @@
+<view class="container">
+  <view class="imglist">
+    <swiper indicator-dots="{{indicatorDots}}" 
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imageList}}" wx:key="*this">
+        <swiper-item>
+          <view class="item">
+            <image src="{{item}}" ></image>
+          </view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="bar-title">
+    <view class="bar-label">
+      <label>新品推荐</label>
+    </view>
+    <view class="bar-more">
+      <button class="button">更多</button>
+    </view>
+  </view>
+  <view class="prolist">
+    <block wx:for="{{productList}}" wx:key="*this">
+      <view class="product">
+        <image src="{{item.src}}"></image>
+        <view>{{item.price}}￥</view>
+        <view>{{item.logo}}</view>
+        <view>{{item.name}}</view>
+      </view>
+    </block>
+  </view>
+  <view class="font-line">
+    <label>好货好价马上来</label>
+  </view>
+  <nav></nav>
+</view>

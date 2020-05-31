@@ -1,0 +1,37 @@
+/* pages/active/index.wxss */
+@import "../common/global.wxss";
+.prolist.special-offer .product{
+  width:100%;
+  float:left;
+  display:flex;
+  padding:5px;
+}
+.prolist.special-offer .product image{
+  width:130px;
+  height:130px;
+}
+.prolist.special-offer .product .block-flex-1{
+  flex:4
+}
+.prolist.special-offer .product .block-flex-2{
+  flex:20
+}
+.prolist.special-offer .product .block-flex-2 > view{
+  margin:5px 0px;
+} 
+.prolist.special-offer .product .block-flex-2 > view:nth-child(1){
+  font-size:14px;
+}
+.prolist.special-offer .product .block-flex-2 > view:nth-child(2){
+  color:#9a9a9a;
+  margin-bottom:20px;
+}
+.prolist.special-offer .product .block-flex-2 > view:nth-child(3){
+  font-size:15px;
+  color:#000;
+}
+.prolist.special-offer .product .block-flex-2 > view:nth-child(4){
+  font-size:12px;
+  color:#9a9a9a;
+  text-decoration: line-through;
+}

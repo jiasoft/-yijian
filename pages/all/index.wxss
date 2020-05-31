@@ -1,0 +1,68 @@
+.seach-cont{
+  display: flex;
+  padding:10px;
+  box-sizing: border-box;
+  width:100%;
+  border-top:1px solid #dbdbdb;
+}
+.all-cont{
+  width:100%;
+  display:flex;
+  border-top:1px solid #dbdbdb;
+}
+.all-cont .tabs{
+  flex:5;
+  font-size:12px;
+  background:#f2f2f2;
+} 
+.all-cont .tabs .tab{
+  font-size:14px;
+  padding:10px;
+  text-align:left;
+  border-bottom:1px solid #dbdbdb;
+  border-radius:0px;
+}
+.all-cont .list-box{
+  flex:19;
+}
+.product-list .product{
+  display:flex;
+  border-bottom:1px solid #dbdbdb;
+  padding-left: 10px;
+  margin:5px;
+}
+.product-list .product .attr{
+  padding-left:10px;
+  font-size:14px;
+  padding-top:10px;
+}
+.product-list .product .attr > view:nth-child(2){
+  color:#ccc;
+  margin-bottom:10px;
+}
+.product-list .product image{
+  width:110px;
+  height:110px;
+}
+
+.more-hover::after{
+  border-top-color:#00ffff;
+}
+.screach-box{
+  font-size:12px;
+}
+
+.screach-box > .inner-box > view{
+  display:inline-block;
+  margin:1px 8px;
+}
+.type-big{
+  padding:5px
+}
+.type-big .item{
+  display:inline-block;
+  margin:5px;
+}
+.tab-hover{
+  background:#fff;
+}

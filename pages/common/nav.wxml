@@ -1,0 +1,18 @@
+<view class="btn-area">
+    <navigator class="navigator" url="/pages/index/index" hover-class="navigator-hover">      
+      <i class="icon icon-home"></i>
+      首页
+    </navigator>
+    <navigator class="navigator" url="/pages/active/index" open-type="redirect" hover-class="navigator-hover">
+      <i class="icon icon-active"></i>
+      活动
+    </navigator>
+    <navigator class="navigator" url="/pages/all/index" open-type="redirect" hover-class="navigator-hover">
+      <i class="icon icon-group"></i>
+      分类
+    </navigator>
+    <navigator class="navigator" url="/pages/user/user" open-type="navigate" hover-class="navigator-hover">
+      <i class="icon icon-user"></i>
+      会员
+    </navigator>
+  </view>

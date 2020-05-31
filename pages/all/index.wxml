@@ -1,0 +1,40 @@
+<view class="container">
+  <view class="seach-cont">
+    <mp-icon type="field" icon="search" color="black" size="{{24}}"></mp-icon>
+    <input class="weui-input" type="text" auto-focus placeholder="搜索您想要的" confirm-type="search" />
+  </view>
+  <view class="all-cont">
+    <view class="tabs">
+      <block  wx:for="{{classify}}" wx:key="*this">
+        <view type="default" class="tab" hover-class="tab-hover" > {{item.name}} </view>
+      </block>
+    </view>
+    <view class="list-box">
+      <div class="screach-box">
+        <view class="inner-box">
+          <block wx:for="{{classifySub}}" wx:key="*this">
+              <view>{{item.name}}</view>
+            </block>
+          </view>
+          
+      </div>
+      
+      <view class="product-list">
+      
+        <block wx:for="{{productList}}" wx:key="*this">
+          <view class="product">
+            <view class="img">
+              <image src="{{item.src}}"></image>
+            </view>
+            <view class="attr">
+              <view>{{item.name}}</view>
+              <view>{{item.logo}}</view>
+              <view>{{item.price}}￥</view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+  <nav></nav>
+</view>
